@@ -1,5 +1,3 @@
-# WIRESHARK-SOC-LAB-PROJECTS-
-SOC analysis lab projects 
 # 🔍 Wireshark SOC Lab – Network Traffic Analysis & Investigation
 
 <div align="center">
@@ -139,13 +137,13 @@ However, packet volume alone does not prove malicious activity. The traffic patt
 
 ### 📸 Evidence & Screenshots
 
-**Wireshark Conversations – Identifying Network Endpoints**
+**Lab Scenario – Identify the Attacker's IP**
 
-![Wireshark Conversations](images/investigation-1-conversations.png)
+![Investigation 1 Scenario](investigation-1-scenario.jpg)
 
-**TCP Traffic Analysis**
+**Lab Result – 100%**
 
-![TCP Traffic Analysis](images/investigation-1-tcp-analysis.png)
+![Investigation 1 Result](investigation-1-result.png)
 
 ### 💡 What I Learned
 
@@ -236,13 +234,17 @@ The observation suggested that the chat application's communication was not adeq
 
 ### 📸 Evidence & Screenshots
 
-**Following a TCP Stream**
+**Lab Scenario – Follow TCP Stream**
 
-![Follow TCP Stream](images/investigation-2-follow-tcp-stream.png)
+![Investigation 2 Scenario](investigation-2-scenario.jpg)
 
-**Reconstructed Internal Conversation**
+**Follow TCP Stream – Reconstructed Internal Conversation**
 
-![Reconstructed Conversation](images/investigation-2-conversation.png)
+![Reconstructed Conversation](investigation-2-conversation.png)
+
+**Lab Result – 90%**
+
+![Investigation 2 Result](investigation-2-result.png)
 
 ### 💡 What I Learned
 
@@ -343,21 +345,13 @@ The investigation demonstrated that captured network traffic can reveal more tha
 
 ### 📸 Evidence & Screenshots
 
-**Investigation Scenario – Discovering Hidden Text**
+**Lab Scenario – Follow TCP Stream, Part 2**
 
-![Investigation 3 Scenario](images/investigation-3-scenario.jpg)
+![Investigation 3 Scenario](investigation-3-scenario.jpg)
 
-**Identifying the Visited staff.html Page**
+**Lab Result – 90%**
 
-![Identifying staff.html](images/investigation-3-staff-page.png)
-
-**Hidden Text Inside the HTML Comment**
-
-![Hidden HTML Comment](images/investigation-3-hidden-text.png)
-
-**Identifying Download Requests Using a Wireshark Filter**
-
-![HTTP Download Requests](images/investigation-3-download-filter.png)
+![Investigation 3 Result](investigation-3-result.png)
 
 ### 💡 What I Learned
 
@@ -427,10 +421,13 @@ This shows that a server that does not use HTTPS gives no protection to the info
 
 ### 📸 Evidence & Screenshots
 
-**Investigation Scenario – HTTP Plain Text Credentials**
+**Lab Scenario – HTTP Plain Text Credentials**
 
-![Investigation 4 Scenario](images/investigation-4-scenario.jpg)
+![Investigation 4 Scenario](investigation-4-scenario.jpg)
 
+**Lab Result – 100%**
+
+![Investigation 4 Result](investigation-4-result.png)
 
 ### 💡 What I Learned
 
@@ -479,10 +476,13 @@ This means the server owner's report of failed sign-ins was not just a nuisance:
 
 ### 📸 Evidence & Screenshots
 
-**Investigation Scenario – Brute Force Catch**
+**Lab Scenario – Brute Force Catch**
 
-![Investigation 5 Scenario](images/investigation-5-scenario.jpg)
+![Investigation 5 Scenario](investigation-5-scenario.jpg)
 
+**Lab Result – 100%**
+
+![Investigation 5 Result](investigation-5-result.png)
 
 ### 💡 What I Learned
 
@@ -545,10 +545,13 @@ Because the call was not protected, its content could be replayed by anyone with
 
 ### 📸 Evidence & Screenshots
 
-**Investigation Scenario – VoIP Call Replay**
+**Lab Scenario – VoIP Call Replay**
 
-![Investigation 6 Scenario](images/investigation-6-scenario.jpg)
+![Investigation 6 Scenario](investigation-6-scenario.jpg)
 
+**Lab Result – 90%**
+
+![Investigation 6 Result](investigation-6-result.png)
 
 ### 💡 What I Learned
 
